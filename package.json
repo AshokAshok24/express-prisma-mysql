@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Generate Database and tables with record using Prisma",
   "main": "index.js",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
   "scripts": {
     "start": "nodemon index.js",
     "test": "node index.js"
