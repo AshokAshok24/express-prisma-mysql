@@ -1,0 +1,26 @@
+{
+  "name": "express-prisma-mysql",
+  "version": "1.0.0",
+  "description": "Generate Database and tables with record using Prisma",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshokAshok24/express-prisma-mysql.git"
+  },
+  "author": "Ashokkumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshokAshok24/express-prisma-mysql/issues"
+  },
+  "homepage": "https://github.com/AshokAshok24/express-prisma-mysql#readme",
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
